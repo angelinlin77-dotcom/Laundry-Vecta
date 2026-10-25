@@ -1,0 +1,18 @@
+{
+  "pelanggan": [
+    { "id": 1, "nama": "Budi Santoso", "telepon": "081234567801", "alamat": "Jl. Gatot Subroto No. 12, Medan" },
+    { "id": 2, "nama": "Siti Aminah", "telepon": "081234567802", "alamat": "Jl. Sisingamangaraja No. 45, Medan" },
+    { "id": 3, "nama": "Rudi Hartono", "telepon": "081234567803", "alamat": "Jl. Setia Budi No. 7, Medan" }
+  ],
+  "layanan": [
+    { "id": 1, "nama": "Cuci Kering", "harga_per_kg": 6000, "estimasi_hari": 2, "deskripsi": "Cuci dan keringkan, tanpa setrika" },
+    { "id": 2, "nama": "Cuci Setrika", "harga_per_kg": 8000, "estimasi_hari": 3, "deskripsi": "Cuci, keringkan, dan setrika rapi" },
+    { "id": 3, "nama": "Setrika Saja", "harga_per_kg": 5000, "estimasi_hari": 1, "deskripsi": "Setrika pakaian bersih" },
+    { "id": 4, "nama": "Express 6 Jam", "harga_per_kg": 15000, "estimasi_hari": 1, "deskripsi": "Cuci setrika selesai di hari yang sama" }
+  ],
+  "pesanan": [
+    { "id": 1, "kode": "LDR-0001", "pelanggan_id": 1, "layanan_id": 2, "berat_kg": 3.5, "total_harga": 28000, "status": "Dicuci", "tanggal_masuk": "2026-10-20", "catatan": "Pisahkan baju putih" },
+    { "id": 2, "kode": "LDR-0002", "pelanggan_id": 2, "layanan_id": 1, "berat_kg": 5, "total_harga": 30000, "status": "Selesai", "tanggal_masuk": "2026-10-18", "catatan": "" },
+    { "id": 3, "kode": "LDR-0003", "pelanggan_id": 3, "layanan_id": 4, "berat_kg": 2, "total_harga": 30000, "status": "Diterima", "tanggal_masuk": "2026-10-24", "catatan": "Jas perlu hati-hati" }
+  ]
+}
